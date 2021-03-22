@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 325vh;
+    max-height: 325vh;
     font-size: 10px;
     font-family: 'Public Sans', sans-serif;
     transition: all .4s;
@@ -246,6 +246,11 @@ footer{
     height: 70%;
 }
 
+.item1{
+    height: 8rem;
+    width: 60%;
+}
+
 .footerItem ul{
     list-style: none;
 }
@@ -253,6 +258,7 @@ footer{
 .footerItem ul li{
     font-size: 1rem;
     font-weight: 300;
+    padding: 0.5rem;
     opacity: 0.9;
 }
 .footerItem ul li:hover{
@@ -284,7 +290,10 @@ footer{
 .item4{
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
     width: 50%;
+    height: 10rem;
 }
 
 .close{
